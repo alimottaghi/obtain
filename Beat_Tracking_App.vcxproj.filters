@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>da777533-f3fe-49f4-b932-9823e09c4ba7</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>e044aaeb-7653-4fea-8115-2cdcf288de6f</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <ClInclude Include="Common\DirectXHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClCompile Include="Common\DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="AudioCapturePlayback">
+      <UniqueIdentifier>{2cbda899-6885-42d2-8930-ee559291fb83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AudioDecoder">
+      <UniqueIdentifier>{95beb070-1508-40e4-9c24-58159a104db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UWP App">
+      <UniqueIdentifier>{b80bf771-ab79-4a3d-b2c2-d0e7808c8d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppGUI">
+      <UniqueIdentifier>{a5ff6790-4f95-4daa-8dfd-906423ce454f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BeatTrackingAlgorithm">
+      <UniqueIdentifier>{f0c922cc-305c-470e-9a42-273f58f614e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AlgorithmInterface">
+      <UniqueIdentifier>{7b253f54-243a-4d10-943b-0359951b1bfa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>UWP App</Filter>
+    </ClCompile>
+    <ClCompile Include="Beat_Tracking_Stem_ert_rtw\Beat_Tracking_Stem.c">
+      <Filter>BeatTrackingAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Beat_Tracking_Stem_ert_rtw\rtGetNaN.c">
+      <Filter>BeatTrackingAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Beat_Tracking_Stem_ert_rtw\rtGetInf.c">
+      <Filter>BeatTrackingAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Beat_Tracking_Stem_ert_rtw\rt_nonfinite.c">
+      <Filter>BeatTrackingAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Beat_Tracking_Stem_ert_rtw\ert_main.cpp">
+      <Filter>BeatTrackingAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioCapturePlayback\AudioCapture.cpp">
+      <Filter>AudioCapturePlayback</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioCapturePlayback\AudioPlayback.cpp">
+      <Filter>AudioCapturePlayback</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioCapturePlayback\AudioHelpers.cpp">
+      <Filter>AudioCapturePlayback</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\pch.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioDecoder\audiodecoderbase.cpp">
+      <Filter>AudioDecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioDecoder\audiodecodermediafoundation.cpp">
+      <Filter>AudioDecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="AppGui\Graphs.cpp">
+      <Filter>AppGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DirectXHelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgorithmInterface\AlgorithmInterface_Audio.cpp">
+      <Filter>AlgorithmInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgorithmInterface\AlgorithmInterface_Entry.cpp">
+      <Filter>AlgorithmInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="AppGui\Beat_Tracking_GUI.cpp">
+      <Filter>AppGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="AppGui\GuiButton.cpp">
+      <Filter>AppGUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>UWP App</Filter>
+    </ClInclude>
+    <ClInclude Include="Beat_Tracking_Stem_ert_rtw\Beat_Tracking_Stem.h">
+      <Filter>BeatTrackingAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Beat_Tracking_Stem_ert_rtw\Beat_Tracking_Stem_private.h">
+      <Filter>BeatTrackingAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Beat_Tracking_Stem_ert_rtw\Beat_Tracking_Stem_types.h">
+      <Filter>BeatTrackingAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Beat_Tracking_Stem_ert_rtw\builtin_typeid_types.h">
+      <Filter>BeatTrackingAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Beat_Tracking_Stem_ert_rtw\multiword_types.h">
+      <Filter>BeatTrackingAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Beat_Tracking_Stem_ert_rtw\rt_nonfinite.h">
+      <Filter>BeatTrackingAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Beat_Tracking_Stem_ert_rtw\rtGetInf.h">
+      <Filter>BeatTrackingAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Beat_Tracking_Stem_ert_rtw\rtGetNaN.h">
+      <Filter>BeatTrackingAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Beat_Tracking_Stem_ert_rtw\rtwtypes.h">
+      <Filter>BeatTrackingAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioCapturePlayback\AudioCapture.h">
+      <Filter>AudioCapturePlayback</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioCapturePlayback\AudioPlayback.h">
+      <Filter>AudioCapturePlayback</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioCapturePlayback\AudioHelpers.h">
+      <Filter>AudioCapturePlayback</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\pch.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioDecoder\audiodecoder.h">
+      <Filter>AudioDecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioDecoder\audiodecoderbase.h">
+      <Filter>AudioDecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioDecoder\audiodecodermediafoundation.h">
+      <Filter>AudioDecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="AppGui\Graphs.h">
+      <Filter>AppGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmInterface\Port_Unified.h">
+      <Filter>AlgorithmInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmInterface\AlgorithmInterface.h">
+      <Filter>AlgorithmInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="AppGui\Beat_Tracking_GUI.h">
+      <Filter>AppGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="AppGui\GlobalGraphs.h">
+      <Filter>AppGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="AppGui\GuiButton.h">
+      <Filter>AppGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Helper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\vBack.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\vCymbalLower.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\vCymbalUpper.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\vFore.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\vL1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\vL2.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\vL3.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\vStick.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\vAllLights.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\vEnd.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\vMike.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\vPlay.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Beat_Tracking_App_TemporaryKey.pfx">
+      <Filter>UWP App</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <Filter>UWP App</Filter>
+    </AppxManifest>
+  </ItemGroup>
+</Project>
